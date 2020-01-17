@@ -1,0 +1,7 @@
+network:
+  version: 2
+  bridges:
+    vlt_mgt_br:
+      addresses: [ 10.251.251.1/24 ]
+    vlt_br:
+      dhcp4: yes
