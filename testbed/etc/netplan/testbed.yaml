@@ -1,0 +1,5 @@
+network:
+  version: 2
+  bridges:
+    vlt_outside_br:
+      addresses: [ 10.0.254.1/24 ]
